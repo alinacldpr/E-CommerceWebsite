@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.Api\\TechTrove.Api.csproj": {}
   },
   "projects": {
@@ -108,6 +109,19 @@
         "projectPath": "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.BLL\\TechTrove.BLL.csproj",
         "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
         "outputPath": "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.BLL\\obj\\",
+=======
+    "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\TechTrove.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\TechTrove.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\TechTrove.Api.csproj",
+        "projectName": "TechTrove.Api",
+        "projectPath": "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\TechTrove.Api.csproj",
+        "packagesPath": "C:\\Users\\Robert-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\obj\\",
+>>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -145,6 +159,15 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+<<<<<<< HEAD
+=======
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+>>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
           "imports": [
             "net461",
             "net462",
@@ -157,6 +180,12 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+<<<<<<< HEAD
+=======
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+>>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -30,6 +30,7 @@ D:\Facultate\II\Proiect II\TechTrove\TechTrove.Api\obj\Debug\net8.0\refint\TechT
 D:\Facultate\II\Proiect II\TechTrove\TechTrove.Api\obj\Debug\net8.0\TechTrove.Api.pdb
 D:\Facultate\II\Proiect II\TechTrove\TechTrove.Api\obj\Debug\net8.0\TechTrove.Api.genruntimeconfig.cache
 D:\Facultate\II\Proiect II\TechTrove\TechTrove.Api\obj\Debug\net8.0\ref\TechTrove.Api.dll
+<<<<<<< HEAD
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\bin\Debug\net8.0\appsettings.json
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\bin\Debug\net8.0\TechTrove.Api.exe
@@ -172,3 +173,5 @@ D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net8.0\TechTrove.Api.pdb
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net8.0\TechTrove.Api.genruntimeconfig.cache
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net8.0\ref\TechTrove.Api.dll
+=======
+>>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
