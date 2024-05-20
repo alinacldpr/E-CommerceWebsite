@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTrove.Api", "TechTrove.Api\TechTrove.Api.csproj", "{E39A12C3-AF03-45B5-97EF-27AF42A110D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EA6744F-C529-4263-BADB-E22E41AF7595} = {8EA6744F-C529-4263-BADB-E22E41AF7595}
+		{D390F062-106D-4CE0-9EB0-85D8B5221713} = {D390F062-106D-4CE0-9EB0-85D8B5221713}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTrove.BLL", "TechTrove.BLL\TechTrove.BLL.csproj", "{D390F062-106D-4CE0-9EB0-85D8B5221713}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EA6744F-C529-4263-BADB-E22E41AF7595} = {8EA6744F-C529-4263-BADB-E22E41AF7595}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTrove.DAL", "TechTrove.DAL\TechTrove.DAL.csproj", "{8EA6744F-C529-4263-BADB-E22E41AF7595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39A12C3-AF03-45B5-97EF-27AF42A110D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39A12C3-AF03-45B5-97EF-27AF42A110D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39A12C3-AF03-45B5-97EF-27AF42A110D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39A12C3-AF03-45B5-97EF-27AF42A110D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D390F062-106D-4CE0-9EB0-85D8B5221713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D390F062-106D-4CE0-9EB0-85D8B5221713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D390F062-106D-4CE0-9EB0-85D8B5221713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D390F062-106D-4CE0-9EB0-85D8B5221713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA6744F-C529-4263-BADB-E22E41AF7595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA6744F-C529-4263-BADB-E22E41AF7595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA6744F-C529-4263-BADB-E22E41AF7595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA6744F-C529-4263-BADB-E22E41AF7595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97989626-A8CA-46ED-BEB5-98802FD4C5D6}
+	EndGlobalSection
+EndGlobal

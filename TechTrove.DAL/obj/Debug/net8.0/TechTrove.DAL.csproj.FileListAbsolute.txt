@@ -1,0 +1,15 @@
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\bin\Debug\net8.0\TechTrove.DAL.deps.json
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\bin\Debug\net8.0\TechTrove.DAL.runtimeconfig.json
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\bin\Debug\net8.0\TechTrove.DAL.dll
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\bin\Debug\net8.0\TechTrove.DAL.pdb
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.csproj.AssemblyReference.cache
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.AssemblyInfoInputs.cache
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.AssemblyInfo.cs
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.csproj.CoreCompileInputs.cache
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.sourcelink.json
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.dll
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\refint\TechTrove.DAL.dll
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.pdb
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\TechTrove.DAL.genruntimeconfig.cache
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.DAL\obj\Debug\net8.0\ref\TechTrove.DAL.dll
