@@ -1,3 +1,4 @@
+// src/components/Products/Products.jsx
 import React from "react";
 import Heading from "../Shared/Heading";
 import ProductCard from "./ProductCard";
@@ -16,70 +17,85 @@ const ProductsData = [
     id: 1,
     img: Img1,
     title: "Boat Headphone",
-    price: "120",
+    price: 120,
     aosDelay: "0",
   },
   {
     id: 2,
     img: Img2,
     title: "Rocky Mountain",
-    price: "420",
+    price: 420,
     aosDelay: "200",
   },
   {
     id: 3,
     img: Img3,
     title: "Goggles",
-    price: "320",
+    price: 320,
     aosDelay: "400",
   },
   {
     id: 4,
     img: Img4,
-    title: "Printed ",
-    price: "220",
+    title: "Printed",
+    price: 220,
     aosDelay: "600",
   },
 ];
 const ProductsData2 = [
   {
-    id: 1,
+    id: 5,
     img: Img5,
     title: "Boat Headphone",
-    price: "120",
+    price: 120,
     aosDelay: "0",
   },
   {
-    id: 2,
+    id: 6,
     img: Img6,
     title: "Rocky Mountain",
-    price: "420",
+    price: 420,
     aosDelay: "200",
   },
   {
-    id: 3,
+    id: 7,
     img: Img7,
     title: "Goggles",
-    price: "320",
+    price: 320,
     aosDelay: "400",
   },
   {
-    id: 4,
+    id: 8,
     img: Img5,
-    title: "Printed ",
-    price: "220",
+    title: "Printed",
+    price: 220,
     aosDelay: "600",
   },
 ];
-const Products = () => {
+
+const Products = ({ sortOption, showHeading = true }) => {
+  const products = [...ProductsData, ...ProductsData2];
+
+  const sortedProducts = products.sort((a, b) => {
+    switch (sortOption) {
+      case "priceAsc":
+        return a.price - b.price;
+      case "priceDesc":
+        return b.price - a.price;
+      case "nameAsc":
+        return a.title.localeCompare(b.title);
+      case "nameDesc":
+        return b.title.localeCompare(a.title);
+      default:
+        return 0;
+    }
+  });
+
   return (
-    <div>
-      <div className="container">
-        {/* Header section */}
-        <Heading title="Our Products" subtitle={"Explore Our Products"} />
-        {/* Body section */}
-        <ProductCard data={ProductsData} />
-        <ProductCard data={ProductsData2} />
+    <div className="container mx-auto">
+      {showHeading && <Heading title="Our Products" subtitle="Explore Our Products" />}
+      <div className="product-list">
+        <ProductCard data={sortedProducts} />
       </div>
     </div>
   );
