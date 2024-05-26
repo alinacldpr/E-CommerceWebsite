@@ -8,14 +8,13 @@ import Services from "./components/Services/Services";
 import Banner from "./components/Banner/Banner";
 import Products from "./components/Products/Products";
 import Blogs from "./components/Blogs/Blogs";
-import Smartwatch from "./components/Blogs/Smartwatch";
-import Gadget from "./components/Blogs/Gadget";
-import VRHeadset from "./components/Blogs/VRHeadset";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
 import Shop from "./components/Shop/Shop";
-import About from "./components/About/About";
-
+import About from "./components/About/About"; // Import About component
+import Login from "./components/Login/Login"; // Import Login component
+import SignUp from "./components/Signup/Signup";
+import ResetPassword from "./components/ResetPassword/ResetPassword";
 import headphone from "./assets/hero/headphone.png";
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
 import AOS from "aos";
@@ -80,16 +79,18 @@ const App = () => {
                 <Banner data={BannerData2} />
                 <Blogs />
                 <Footer />
-                <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} />
+                <Popup
+                  orderPopup={orderPopup}
+                  handleOrderPopup={handleOrderPopup}
+                />
               </>
             }
           />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blogs/smartwatch" element={<Smartwatch />} />
-          <Route path="/blogs/gadget" element={<Gadget />} />
-          <Route path="/blogs/vr-headset" element={<VRHeadset />} />
+          <Route path="/resetpassword" element={<ResetPassword />} />
+          <Route path="/about" element={<About />} /> {/* Add About route */}
         </Routes>
       </div>
     </Router>
