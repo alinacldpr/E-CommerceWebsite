@@ -100,8 +100,11 @@ export default function Login() {
               Sign In
             </Button>
             <Grid container>
-              <Grid item xs>
-                <Link href="#" variant="body2">
+              <Grid item>
+                <Link
+                  href="/resetpassword"
+                  className="p-3 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
+                >
                   Forgot password?
                 </Link>
               </Grid>
