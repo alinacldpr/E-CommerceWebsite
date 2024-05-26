@@ -10,7 +10,8 @@ import Products from "./components/Products/Products";
 import Blogs from "./components/Blogs/Blogs";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
-import Shop from "./components/Shop/Shop"; // Correct import path
+import Shop from "./components/Shop/Shop";
+import About from "./components/About/About"; // Import About component
 
 import headphone from "./assets/hero/headphone.png";
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
@@ -81,6 +82,7 @@ const App = () => {
             }
           />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/about" element={<About />} /> {/* Add About route */}
         </Routes>
       </div>
     </Router>

@@ -10,7 +10,7 @@ const Shop = () => {
   };
 
   return (
-    <div className="shop-container mx-auto p-4">
+    <div className="container mx-auto p-4">
       <div className="flex justify-between items-center border-b pb-4 mb-4">
         <h1 className="text-3xl font-bold">Shop</h1>
         <div className="flex items-center">

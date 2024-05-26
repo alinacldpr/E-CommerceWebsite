@@ -1,7 +1,8 @@
-import React from "react";
+// src/components/Navbar/Navbar.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import DarkMode from "./DarkMode";
 
 const MenuLinks = [
@@ -71,7 +72,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     </Link>
                   </li>
                 ))}
-                {/* Dropdown  */}
+                {/* Dropdown */}
                 <li className="relative cursor-pointer group">
                   <Link
                     to="#"
@@ -84,13 +85,13 @@ const Navbar = ({ handleOrderPopup }) => {
                   </Link>
 
                   {/* Dropdown Links */}
-                  <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white shadow-md dark:bg-gray-900 p-2 dark:text-white ">
+                  <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white shadow-md dark:bg-gray-900 p-2 dark:text-white">
                     <ul className="space-y-2">
                       {DropdownLinks.map((data, index) => (
                         <li key={index}>
                           <Link
                             to={data.link}
-                            className="text-gray-500  dark:hover:text-white duration-200 inline-block w-full p-2 hover:bg-primary/20 rounded-md font-semibold"
+                            className="text-gray-500 dark:hover:text-white duration-200 inline-block w-full p-2 hover:bg-primary/20 rounded-md font-semibold"
                           >
                             {data.name}
                           </Link>
