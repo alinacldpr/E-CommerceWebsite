@@ -9,27 +9,27 @@ import Img3 from "../../assets/blogs/blog-3.jpg";
 
 const BlogData = [
   {
+    id: 1,
     title: "How to choose perfect smartwatch",
-    subtitle:
-      "Discover the key features to look for when selecting a smartwatch that fits your lifestyle and needs...",
+    subtitle: "Discover the key features to look for when selecting a smartwatch that fits your lifestyle and needs...",
     published: "Jan 20, 2024 by Dilshad",
     image: Img1,
     aosDelay: "0",
     link: "/blogs/smartwatch"
   },
   {
+    id: 2,
     title: "How to choose perfect gadget",
-    subtitle:
-      "Explore the essential factors to consider when choosing gadgets, ensuring you make the best purchase decision...",
+    subtitle: "Explore the essential factors to consider when choosing gadgets, ensuring you make the best purchase decision...",
     published: "Jan 20, 2024 by Satya",
     image: Img2,
     aosDelay: "200",
     link: "/blogs/gadget"
   },
   {
+    id: 3,
     title: "How to choose perfect VR headset",
-    subtitle:
-      "Learn about the important aspects of VR headsets, from resolution to comfort, to find the ideal one for you...",
+    subtitle: "Learn about the important aspects of VR headsets, from resolution to comfort, to find the ideal one for you...",
     published: "Jan 20, 2024 by Sabir",
     image: Img3,
     aosDelay: "400",
@@ -41,13 +41,18 @@ const Blogs = () => {
   return (
     <div className="my-12">
       <div className="container">
-        <Heading title="Recent News" subtitle={"Explore Our Blogs"} />
+        {/* Custom header section */}
+        <div className="flex flex-col">
+          <h1 className="text-3xl font-bold">Blog Posts</h1>
+          <div className="border-t-2 border-gray-300 mt-2 mb-8"></div>
+        </div>
+        {/* Blog section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7">
           {BlogData.map((data) => (
             <div
               data-aos="fade-up"
               data-aos-delay={data.aosDelay}
-              key={data.title}
+              key={data.id}
               className="bg-white dark:bg-gray-900"
             >
               <div className="overflow-hidden rounded-2xl mb-2">
