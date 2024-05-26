@@ -30,7 +30,7 @@ const BannerData = {
   date: "10 May to 10 June",
   image: headphone,
   title2: "Air Solo Bass",
-  title3: "Winter Sale",
+  title3: "Summer Sale",
   title4:
     "Experience the best sound quality with our Air Solo Bass headphones. Limited time offer, don't miss out!",
   bgColor: "#f42c37",
@@ -42,7 +42,7 @@ const BannerData2 = {
   date: "20 May to 20 June",
   image: smartwatch2,
   title2: "Smart Solo",
-  title3: "Winter Sale",
+  title3: "Summer Sale",
   title4:
     "Stay ahead with our Smart Solo watch. Track your activity and enjoy seamless connectivity. Limited time offer!",
   bgColor: "#2dcc6f",
