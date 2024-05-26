@@ -35,25 +35,16 @@ const Footer = () => {
           <div className="py-8 px-4">
             <a
               href="#"
-              className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl
-"
+              className="text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
             >
-              Eshop
+              TechTrove
             </a>
-            <p className="text-gray-600 dark:text-white/70  lg:pr-24 pt-3">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-              alias cum
+            <p className="text-gray-600 dark:text-white/70 lg:pr-24 pt-3">
+              Empowering your shopping experience with quality products and exceptional service.
             </p>
             <p className="text-gray-500 mt-4">
-              Made with 💖 by The Coding Journey
+              Made with 💖 by The Dev Team
             </p>
-            <a
-              href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
-              target="_blank"
-              className="inline-block bg-primary/90 text-white py-2 px-4 mt-4 text-sm rounded-full"
-            >
-              Visit our YouTube Channel
-            </a>
           </div>
 
           {/* Footer links */}
@@ -100,22 +91,22 @@ const Footer = () => {
               <div>
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida , Uttar Pradesh</p>
+                  <p>Cluj-Napoca, Romania</p>
                 </div>
                 <div className="flex items-center gap-3 mt-6">
                   <FaMobileAlt />
-                  <p>+91 1234567890</p>
+                  <p>+40700000000</p>
                 </div>
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
+                  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <FaInstagram className="text-3xl hover:text-primary duration-300" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                     <FaFacebook className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="text-3xl hover:text-primary duration-200" />
                   </a>
                 </div>
