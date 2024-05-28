@@ -15,9 +15,10 @@ import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
 import Shop from "./components/Shop/Shop";
 import About from "./components/About/About";
-import Login from "./components/Login/Login"; // Import Login component
+import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/Signup";
 import ResetPassword from "./components/ResetPassword/ResetPassword";
+import SearchResults from "./components/SearchResults/SearchResults"; // Import SearchResults component
 
 import headphone from "./assets/hero/headphone.png";
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
@@ -55,6 +56,12 @@ const App = () => {
     setOrderPopup(!orderPopup);
   };
 
+  const handleSearch = (query) => {
+    if (query) {
+      window.location.href = `/search?query=${query}`;
+    }
+  };
+
   React.useEffect(() => {
     AOS.init({
       duration: 800,
@@ -68,7 +75,7 @@ const App = () => {
   return (
     <Router>
       <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-        <Navbar handleOrderPopup={handleOrderPopup} />
+        <Navbar handleOrderPopup={handleOrderPopup} handleSearch={handleSearch} />
         <Routes>
           <Route
             path="/"
@@ -96,6 +103,7 @@ const App = () => {
           <Route path="/blogs/smartwatch" element={<Smartwatch />} />
           <Route path="/blogs/gadget" element={<Gadget />} />
           <Route path="/blogs/vr-headset" element={<VRHeadset />} />
+          <Route path="/search" element={<SearchResults />} /> {/* Add this line */}
         </Routes>
       </div>
     </Router>
