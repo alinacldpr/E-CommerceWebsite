@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TechTrove.BLL\TechTrove.BLL.csproj" />
+    <ProjectReference Include="..\TechTrove.DAL\TechTrove.DAL.csproj" />
   </ItemGroup>
 
 </Project>

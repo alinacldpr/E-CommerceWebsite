@@ -9,12 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTrove.Api", "TechTrove.
 		{D390F062-106D-4CE0-9EB0-85D8B5221713} = {D390F062-106D-4CE0-9EB0-85D8B5221713}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTrove.BLL", "TechTrove.BLL\TechTrove.BLL.csproj", "{D390F062-106D-4CE0-9EB0-85D8B5221713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTrove.BLL", "TechTrove.BLL\TechTrove.BLL.csproj", "{D390F062-106D-4CE0-9EB0-85D8B5221713}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8EA6744F-C529-4263-BADB-E22E41AF7595} = {8EA6744F-C529-4263-BADB-E22E41AF7595}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTrove.DAL", "TechTrove.DAL\TechTrove.DAL.csproj", "{8EA6744F-C529-4263-BADB-E22E41AF7595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTrove.DAL", "TechTrove.DAL\TechTrove.DAL.csproj", "{8EA6744F-C529-4263-BADB-E22E41AF7595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

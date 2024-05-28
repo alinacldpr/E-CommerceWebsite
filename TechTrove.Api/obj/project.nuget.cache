@@ -1,7 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "7CSNLyxgx5g30xARHOPTzCLF9NkOlPFeh+q95A+82nZ5RLrLyOT7xz70vwHuufDRWel+rmTvzUR4db9zspesNA==",
+  "dgSpecHash": "ShoUfI1ZId5LNcoEvpDNX6KLdbR6J0gZeD0ppeMRUoWkFdU3nDHwxRYXebcjZChhSAJGzLg0nSidhRogRsUkXA==",
   "success": true,
   "projectFilePath": "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.Api\\TechTrove.Api.csproj",
   "expectedPackageFiles": [
@@ -88,18 +87,6 @@
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Robert-PC\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
-=======
-  "dgSpecHash": "t9p3d9pC+jmVYi5SsuMtPLeAIbZBdIfVfnLGOXpJn+xnGNRR2djNRxt4rw3CYBNlSyo9Do79m//fpm07jzm55Q==",
-  "success": true,
-  "projectFilePath": "D:\\Facultate\\II\\Proiect II\\TechTroveWebApp-BackEnd\\TechTrove.Api\\TechTrove.Api.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\Robert-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
->>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
   ],
   "logs": []
 }
