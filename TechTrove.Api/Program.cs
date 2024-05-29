@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using TechTrove.BLL.Services;
 using TechTrove.DAL;
+using TechTrove.DAL.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -7,6 +9,9 @@ var configuration = builder.Configuration;
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TechTroveContext>(options =>

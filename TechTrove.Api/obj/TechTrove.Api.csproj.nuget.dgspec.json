@@ -131,7 +131,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.DAL\\TechTrove.DAL.csproj": {
+                "projectPath": "D:\\Facultate\\II\\RepoAlinaProiectII\\E-CommerceWebsite\\TechTrove.DAL\\TechTrove.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

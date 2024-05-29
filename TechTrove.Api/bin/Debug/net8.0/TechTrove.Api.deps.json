@@ -917,6 +917,9 @@
         }
       },
       "TechTrove.BLL/1.0.0": {
+        "dependencies": {
+          "TechTrove.DAL": "1.0.0"
+        },
         "runtime": {
           "TechTrove.BLL.dll": {}
         }

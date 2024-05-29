@@ -10,3 +10,7 @@ D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net8.0\refint\TechTrove.BLL.dll
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net8.0\TechTrove.BLL.pdb
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net8.0\ref\TechTrove.BLL.dll
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\bin\Debug\net8.0\TechTrove.DAL.dll
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\bin\Debug\net8.0\TechTrove.DAL.pdb
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net8.0\TechTrove.BLL.csproj.AssemblyReference.cache
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.BLL\obj\Debug\net8.0\TechTrov.7656714D.Up2Date
