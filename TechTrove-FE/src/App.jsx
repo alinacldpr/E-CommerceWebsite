@@ -19,7 +19,7 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/Signup";
 import ResetPassword from "./components/ResetPassword/ResetPassword";
 import SearchResults from "./components/SearchResults/SearchResults"; // Import SearchResults component
-
+import ShoppingCart from "./components/Shopping-Cart/ShoppingCart";
 import headphone from "./assets/hero/headphone.png";
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
 import AOS from "aos";
@@ -109,6 +109,7 @@ const App = () => {
           <Route path="/blogs/smartwatch" element={<Smartwatch />} />
           <Route path="/blogs/gadget" element={<Gadget />} />
           <Route path="/blogs/vr-headset" element={<VRHeadset />} />
+          <Route path="/shoppingcart" element={<ShoppingCart />} />
           <Route path="/search" element={<SearchResults />} />{" "}
           {/* Add this line */}
         </Routes>

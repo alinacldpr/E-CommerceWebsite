@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const SearchResults = () => {
   const location = useLocation();
   const [searchResults, setSearchResults] = useState([]);
-  const query = new URLSearchParams(location.search).get('query');
+  const query = new URLSearchParams(location.search).get("query");
 
   useEffect(() => {
     if (query) {
@@ -13,7 +13,7 @@ const SearchResults = () => {
         { id: 2, name: "Smartwatch" },
         { id: 3, name: "VR Headset" },
       ];
-      const results = allProducts.filter(product =>
+      const results = allProducts.filter((product) =>
         product.name.toLowerCase().includes(query.toLowerCase())
       );
       setSearchResults(results);
@@ -25,12 +25,12 @@ const SearchResults = () => {
       <h1 className="text-2xl font-semibold mb-4">Search Results</h1>
       {searchResults.length > 0 ? (
         <ul>
-          {searchResults.map(result => (
+          {searchResults.map((result) => (
             <li key={result.id}>{result.name}</li>
           ))}
         </ul>
       ) : (
-        <p>No results found for "{query}"</p>
+        <p>No results found for `{query}`</p>
       )}
     </div>
   );
