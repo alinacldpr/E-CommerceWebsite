@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechTrove.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d9c52496b84e41c7a8919d8a24d8b3fdeb84aed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8dc97dccdbc234b2fd2f605e1fe9dc3249d23c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechTrove.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechTrove.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
