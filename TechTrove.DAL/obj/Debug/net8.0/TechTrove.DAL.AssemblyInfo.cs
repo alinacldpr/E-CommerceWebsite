@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechTrove.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb57bf8e9d40ad93c7267561601914c5da0aef02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1541f7955f75a86ca63723e928d556c67401bbdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechTrove.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechTrove.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
