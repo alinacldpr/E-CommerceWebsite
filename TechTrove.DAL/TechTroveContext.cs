@@ -16,5 +16,6 @@ namespace TechTrove.DAL
         public DbSet<TechTroveCartItem> TechTroveCartItems { get; set; }
         public DbSet<TechTroveProduct> TechTroveProducts { get; set; }
         public DbSet<TechTroveCategory> TechTroveCategories { get; set; }
+        public DbSet<TechTroveOrderLine> TechTroveOrderLines { get; set; }
     }
 }
