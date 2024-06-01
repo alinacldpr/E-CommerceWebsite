@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechTrove.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc3892a7face97a4e33ccfc6541662d593d4f675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0354bc4f100a160f1eddd231baac06b7c6bb2be1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechTrove.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechTrove.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
