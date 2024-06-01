@@ -14,7 +14,9 @@ const Shop = () => {
       <div className="flex justify-between items-center border-b pb-4 mb-4">
         <h1 className="text-3xl font-bold">Shop</h1>
         <div className="flex items-center">
-          <label htmlFor="sort" className="mr-2 text-lg">Sort by:</label>
+          <label htmlFor="sort" className="mr-2 text-lg">
+            Sort by:
+          </label>
           <select
             id="sort"
             value={sortOption}

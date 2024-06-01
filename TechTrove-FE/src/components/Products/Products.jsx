@@ -1,7 +1,9 @@
 // src/components/Products/Products.jsx
-import React from "react";
+import React, { useState } from "react";
+
 import Heading from "../Shared/Heading";
 import ProductCard from "./ProductCard";
+import { IoMdSearch } from "react-icons/io";
 
 // images import
 import Img1 from "../../assets/product/p-1.jpg";
@@ -12,7 +14,7 @@ import Img5 from "../../assets/product/p-5.jpg";
 import Img6 from "../../assets/product/p-9.jpg";
 import Img7 from "../../assets/product/p-7.jpg";
 
-const ProductsData = [
+export const ProductsData = [
   {
     id: 1,
     img: Img1,
@@ -74,9 +76,14 @@ const ProductsData2 = [
 ];
 
 const Products = ({ sortOption, showHeading = true }) => {
+  const [searchQuery, setSearchQuery] = useState("");
   const products = [...ProductsData, ...ProductsData2];
 
-  const sortedProducts = products.sort((a, b) => {
+  const filteredProducts = products.filter((product) =>
+    product.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const sortedProducts = filteredProducts.sort((a, b) => {
     switch (sortOption) {
       case "priceAsc":
         return a.price - b.price;
@@ -93,7 +100,35 @@ const Products = ({ sortOption, showHeading = true }) => {
 
   return (
     <div className="container mx-auto">
-      {showHeading && <Heading title="Our Products" subtitle="Explore Our Products" />}
+      {showHeading && (
+        <Heading title="Our Products" subtitle="Explore Our Products" />
+      )}
+
+      <div
+        className="search-bar"
+        style={{
+          display: "flex",
+          justifyContent: "flex-end",
+          marginBottom: "25px",
+          width: "100%",
+        }}
+      >
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search products by name..."
+          className="search-input"
+          style={{
+            padding: "10px",
+            border: "1px solid #ccc",
+            borderRadius: "5px",
+            width: "44.5%",
+            marginRight: "26px",
+          }}
+        />
+      </div>
+
       <div className="product-list">
         <ProductCard data={sortedProducts} />
       </div>
