@@ -98,6 +98,18 @@ const App = () => {
           <Route path="/blogs/vr-headset" element={<VRHeadset />} />
         </Routes>
       </div>
+      <div className="App">
+                <Switch>
+                    <Route path="/products" component={ProductList} />
+                    <Route path="/users" component={UserList} />
+                    <Route path="/categories" component={CategoryList} />
+                    <Route path="/carts" component={CartList} />
+                    <Route path="/cart-items" component={CartItemList} />
+                    <Route path="/users" component={UserList} />
+                    <Route path="/products" component={ProductList} />
+                    <Route path="/categories" component={CategoryList} />
+                </Switch>
+            </div>
     </Router>
   );
 };
