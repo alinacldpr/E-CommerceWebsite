@@ -1,27 +1,27 @@
 // src/components/Services/CartItemService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // URL-ul backend-ului tău
+const API_URL = 'http://localhost:7238/api'; // URL-ul backend-ului tău
 
 class CartItemService {
     getAllCartItems() {
-        return axios.get(`${API_URL}/cartitems`);
+        return axios.get(`${API_URL}/CartItems`);
     }
 
     getCartItemById(id) {
-        return axios.get(`${API_URL}/cartitems/${id}`);
+        return axios.get(`${API_URL}/CartItems/${id}`);
     }
 
     createCartItem(cartItem) {
-        return axios.post(`${API_URL}/cartitems`, cartItem);
+        return axios.post(`${API_URL}/CartItems`, cartItem);
     }
 
     updateCartItem(id, cartItem) {
-        return axios.put(`${API_URL}/cartitems/${id}`, cartItem);
+        return axios.put(`${API_URL}/CartItems/${id}`, cartItem);
     }
 
     deleteCartItem(id) {
-        return axios.delete(`${API_URL}/cartitems/${id}`);
+        return axios.delete(`${API_URL}/CartItems/${id}`);
     }
 }
 

@@ -125,6 +125,8 @@ const App = () => {
                     <Route path="/users" component={UserList} />
                     <Route path="/products" component={ProductList} />
                     <Route path="/categories" component={CategoryList} />
+                    <Route path="/orders" component={OrderList} />
+                    <Route path="/order-lines" component={OrderLineList} />
                 </Switch>
             </div>
     </Router>
