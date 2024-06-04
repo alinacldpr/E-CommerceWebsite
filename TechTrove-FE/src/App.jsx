@@ -20,6 +20,15 @@ import SignUp from "./components/Signup/Signup";
 import ResetPassword from "./components/ResetPassword/ResetPassword";
 import SearchResults from "./components/SearchResults/SearchResults"; // Import SearchResults component
 import ShoppingCart from "./components/Shopping-Cart/ShoppingCart";
+
+import UserList from './components/Users/UserList';
+import ProductList from './components/Products/ProductList';
+import CategoryList from './components/Category/CategoryList';
+import OrderList from './components/Orders/OrderList';
+import OrderLineList from './components/OrderLines/OrderLineList';
+import CartList from './components/Shopping-Cart/CartList'
+import CartItemList from './components/CartItems/CartItemList'
+
 import headphone from "./assets/hero/headphone.png";
 import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
 import AOS from "aos";
@@ -111,26 +120,24 @@ const App = () => {
           <Route path="/blogs/vr-headset" element={<VRHeadset />} />
           <Route path="/shoppingcart" element={<ShoppingCart />} />
           <Route path="/search" element={<SearchResults />} />{" "}
+          <Route path="/products" component={ProductList} />
+          <Route path="/users" component={UserList} />
+          <Route path="/categories" component={CategoryList} />
+          <Route path="/carts" component={CartList} />
+          <Route path="/cart-items" component={CartItemList} />
+          <Route path="/users" component={UserList} />
+          <Route path="/products" component={ProductList} />
+          <Route path="/categories" component={CategoryList} />
+          <Route path="/orders" component={OrderList} />
+          <Route path="/order-lines" component={OrderLineList} />
           {/* Add this line */}
         </Routes>
       </div>
 
-      <div className="App">
-                <Switch>
-                    <Route path="/products" component={ProductList} />
-                    <Route path="/users" component={UserList} />
-                    <Route path="/categories" component={CategoryList} />
-                    <Route path="/carts" component={CartList} />
-                    <Route path="/cart-items" component={CartItemList} />
-                    <Route path="/users" component={UserList} />
-                    <Route path="/products" component={ProductList} />
-                    <Route path="/categories" component={CategoryList} />
-                    <Route path="/orders" component={OrderList} />
-                    <Route path="/order-lines" component={OrderLineList} />
-                </Switch>
-            </div>
+
     </Router>
   );
 };
+
 
 export default App;
