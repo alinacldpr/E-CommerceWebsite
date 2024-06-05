@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const Banner = ({ data }) => {
+  const navigate = useNavigate();
+
+  const handleShopNowClick = () => {
+    navigate('/shop');
+  };
+
   return (
     <div className="min-h-[550px] flex justify-center items-center py-12">
       <div className="container">
@@ -45,6 +52,7 @@ const Banner = ({ data }) => {
             </p>
             <div data-aos="fade-up" data-aos-offset="0">
               <button
+                onClick={handleShopNowClick}
                 style={{ color: data.bgColor }}
                 className="bg-white py-2 px-4 rounded-full"
               >
