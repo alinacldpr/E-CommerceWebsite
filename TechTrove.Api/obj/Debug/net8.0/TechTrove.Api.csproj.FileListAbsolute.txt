@@ -175,3 +175,4 @@ D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net
 D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\obj\Debug\net8.0\ref\TechTrove.Api.dll
 =======
 >>>>>>> 67864b447694b5ee5b3ffae8683ee2823e3f35a5
+D:\Facultate\II\RepoAlinaProiectII\E-CommerceWebsite\TechTrove.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

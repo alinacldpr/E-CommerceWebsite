@@ -1,4 +1,6 @@
 import * as React from "react";
+import { useState } from "react";
+import AuthService from "src/components/services/AuthService";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -12,6 +14,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { useNavigate } from "react-router-dom";
 
 function Copyright(props) {
   return (
@@ -34,13 +37,21 @@ function Copyright(props) {
 const defaultTheme = createTheme();
 
 export default function Login() {
-  const handleSubmit = (event) => {
+  const [errorMessage, setErrorMessage] = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-    });
+    const email = data.get("email");
+    const password = data.get("password");
+
+    try {
+      await AuthService.login(email, password);
+      navigate("/");
+    } catch (error) {
+      setErrorMessage("Invalid email or password");
+    }
   };
 
   return (
@@ -91,6 +102,11 @@ export default function Login() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
+            {errorMessage && (
+              <Typography color="error" variant="body2" align="center">
+                {errorMessage}
+              </Typography>
+            )}
             <Button
               type="submit"
               fullWidth
@@ -100,7 +116,7 @@ export default function Login() {
               Sign In
             </Button>
             <Grid container>
-              <Grid item>
+              <Grid item xs>
                 <Link
                   href="/resetpassword"
                   className="p-3 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white"
