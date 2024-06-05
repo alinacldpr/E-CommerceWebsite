@@ -9,5 +9,6 @@ namespace TechTrove.BLL.Services
         Task CreateUserAsync(TechTroveUser user);
         Task UpdateUserAsync(TechTroveUser user);
         Task DeleteUserAsync(int id);
+        Task<TechTroveUser> ValidateUserAsync(string email, string password);
     }
 }
