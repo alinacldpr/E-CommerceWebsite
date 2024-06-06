@@ -17,6 +17,7 @@ import Shop from "./components/Shop/Shop";
 import About from "./components/About/About";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/Signup";
+import AuthService from './services/AuthService';
 import ResetPassword from "./components/ResetPassword/ResetPassword";
 import SearchResults from "./components/SearchResults/SearchResults"; // Import SearchResults component
 import ShoppingCart from "./components/Shopping-Cart/ShoppingCart";
@@ -59,6 +60,9 @@ const BannerData2 = {
 };
 
 const App = () => {
+  const PrivateRoute = ({ children }) => {
+    return AuthService.getCurrentUser() ? children : <Navigate to="/login" />;
+  };
   const [orderPopup, setOrderPopup] = React.useState(false);
 
   const handleOrderPopup = () => {
@@ -109,7 +113,8 @@ const App = () => {
               </>
             }
           />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<PrivateRoute><Shop /></PrivateRoute>} />
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/login" element={<Login />} />

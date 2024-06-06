@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import AuthService from "../../components/Login/Login.jsx";
+import AuthService from "@/components/Services/AuthService";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
