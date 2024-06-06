@@ -17,7 +17,7 @@ import Shop from "./components/Shop/Shop";
 import About from "./components/About/About";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/Signup";
-import AuthService from './services/AuthService';
+import AuthService from './components/Services/AuthService';
 import ResetPassword from "./components/ResetPassword/ResetPassword";
 import SearchResults from "./components/SearchResults/SearchResults"; // Import SearchResults component
 import ShoppingCart from "./components/Shopping-Cart/ShoppingCart";
@@ -113,7 +113,6 @@ const App = () => {
               </>
             }
           />
-          <Route path="/" element={<Home />} />
           <Route path="/shop" element={<PrivateRoute><Shop /></PrivateRoute>} />
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
